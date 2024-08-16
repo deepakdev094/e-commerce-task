@@ -1,0 +1,14 @@
+.home-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 40px;
+}
+
+.product-list-container {
+    flex: 2; 
+}
+
+.cart-container {
+    flex: 1; 
+}

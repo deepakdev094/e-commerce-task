@@ -1,0 +1,64 @@
+.statistics-container {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.statistics-title {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.statistics-item {
+    margin-bottom: 20px;
+}
+
+.statistics-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.statistics-value {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.coupon-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.coupon-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coupon-code {
+    font-weight: bold;
+    color: #333;
+}
+
+.coupon-description {
+    color: #555;
+    font-style: italic;
+}
+
+.no-coupons {
+    text-align: center;
+    color: #888;
+    margin-top: 20px;
+}

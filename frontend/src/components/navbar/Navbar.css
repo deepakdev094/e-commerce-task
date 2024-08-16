@@ -1,0 +1,37 @@
+/* Navbar Container */
+.navbar {
+    background-color: #007bff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+/* Brand Name */
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Link Container */
+.navbar-links {
+    display: flex;
+}
+
+/* Individual Links */
+.navbar-link {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover Effect for Links */
+.navbar-link:hover {
+    background-color: #0056b3;
+}
